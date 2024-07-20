@@ -1,3 +1,4 @@
+![Screenshot (235)](https://github.com/user-attachments/assets/3e2b77c5-0b99-42a2-ad84-6220e18fe6b1)
 React + Vite
 TodoList Application This is a simple TodoList application built using React and Redux, with Material-UI for styling. The project is set up using Vite for fast development and hot module replacement (HMR).
 
