@@ -1,12 +1,18 @@
 ![Screenshot (235)](https://github.com/user-attachments/assets/3e2b77c5-0b99-42a2-ad84-6220e18fe6b1)
+
 React + Vite
+
 TodoList Application This is a simple TodoList application built using React and Redux, with Material-UI for styling. The project is set up using Vite for fast development and hot module replacement (HMR).
+
 
 Table of Contents TodoList Application
 
+
 This is a simple TodoList application built using React and Redux, with Material-UI for styling. Table of Contents Demo Features Installation Usage Project Structure Contributing License Acknowledgements Demo Include a link or a screenshot of your project running.
 
+
 Features Add, edit, and delete tasks Mark tasks as complete Delete all tasks at once Responsive design using Material-UI Installation Follow these steps to set up the project on your local machine.
+
 
 Prerequisites Node.js (v12 or later) npm Steps Clone the repository:
 
@@ -18,7 +24,13 @@ npm run dev The application should now be running on http://localhost:5143.
 
 Usage Once the application is running, you can:
 
-Add a new task by typing in the input field and clicking the "ADD" button. Edit a task by clicking the edit icon next to the task. Delete a task by clicking the delete icon next to the task. Delete all tasks by clicking the "Delete All Items" button. Project Structure arduino Copy code src/ components/ TodoList.jsx redux/ todo/ todoSlice.js store.js App.jsx index.jsx vite.config.js src/components/TodoList.jsx This is the main component of the TodoList application. It handles the rendering of tasks, adding new tasks, editing existing tasks, and deleting tasks. It uses Material-UI components for styling.
+Add a new task by typing in the input field and clicking the "ADD" button.
+
+Edit a task by clicking the edit icon next to the task. Delete a task by clicking the delete icon next to the task.
+
+Delete all tasks by clicking the "Delete All Items" button. 
+
+Project Structure arduino Copy code src/ components/ TodoList.jsx redux/ todo/ todoSlice.js store.js App.jsx index.jsx vite.config.js src/components/TodoList.jsx This is the main component of the TodoList application. It handles the rendering of tasks, adding new tasks, editing existing tasks, and deleting tasks. It uses Material-UI components for styling.
 
 src/redux/todo/todoSlice.js This file contains the Redux slice for managing the todo state. It includes actions and reducers for adding, deleting, editing, and clearing tasks.
 
