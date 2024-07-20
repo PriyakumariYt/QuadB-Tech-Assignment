@@ -34,11 +34,9 @@ const TodoList = () => {
       setEditValue('');
     }
   };
-
-  const handleDeleteAll = () => {
+const handleDeleteAll = () => {
     dispatch(deleteAllItems());
   };
-
   return (
     <div className="container">
       <div className="TodoList">
